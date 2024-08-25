@@ -12,7 +12,7 @@ This is a simple P2P auction system using Hyperswarm RPC, Hypercore, and Hyperbe
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Rishabhporwal/P2P-Auction-System.git)
    ```
 
 2. Install dependencies:
