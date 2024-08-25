@@ -40,6 +40,11 @@ This is a simple P2P auction system using Hyperswarm RPC, Hypercore, and Hyperbe
    npm run start-client
    ```
 
+## Notes
+
+Ensure you replace the placeholder <INSERT_SERVER_PUBLIC_KEY> in auctionClient.js with the actual server public key printed when the server starts.
+Make sure to start the DHT bootstrap node first before starting the server and client.
+
 ## Logs
 
 Logs are stored in the `./logs/auction.log` file.

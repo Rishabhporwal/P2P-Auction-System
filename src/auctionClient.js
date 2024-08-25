@@ -11,10 +11,7 @@ async function startClient() {
   const rpc = new RPC({ dht });
 
   // Public key of the auction server (replace with actual key)
-  const serverPublicKey = Buffer.from(
-    "3dff8095572b70a3e21fa1050a85109c719021537bfef8feec5d9f6ed009a3bb",
-    "hex"
-  );
+  const serverPublicKey = Buffer.from("<INSERT_SERVER_PUBLIC_KEY>", "hex");
 
   // Function to open an auction
   async function openAuction(auctionId, item, startingPrice) {
